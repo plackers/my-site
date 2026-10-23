@@ -1,3 +1,4 @@
+const btn = document.querySelector('.button');
 const btn1 = document.querySelector('.button1');
 const input = document.getElementById("input1");
 const list = document.getElementById('list');
@@ -27,3 +28,8 @@ function remove() {
 }
 
 btn2.addEventListener('click', remove);
+
+function download(){
+    alert("downloading...");
+}
+btn.addEventListener('click', download);
